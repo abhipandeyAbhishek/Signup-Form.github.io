@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+                
+                *{
+                        margin: 0;
+                        padding: 0;
+                }
+                body{
+                  background-color: #ff7f50;      
+                }
+
+                .first{
+                        margin: auto;
+                    margin-top: 20px;
+                    border-radius: 5px;
+                        width: 360px;
+                        height: 260px;
+                        background:white;
+                }
+                h1{
+                        text-align: center;
+                }
+
+                form{
+                        width: 300px;
+                        margin-left: 20px;
+                }
+                form label{
+                        font-family: sans-serif;
+                        display: flex;
+                        font-weight: 500;
+                        font-size: 18px;
+                        margin-top: 15px;
+                       
+                }
+                input{
+                       width: 90%;
+                       padding: 4px;
+                       border-radius: 5px;
+                }
+                input[type="button"]{
+                        width: 94%;
+                        margin-top: 30px;
+                        background-color: orchid;
+                        font-family: sans-serif;
+                }
+                .loginhere{
+                        margin-top: 10px;
+                        font-size: large;
+                        text-align: center;
+                }
+                
+          @media (max-width:320px) {
+                
+                .first{
+                        margin: auto;
+                    margin-top: 20px;
+                    border-radius: 5px;
+                        width: 360px;
+                        height: 260px;
+                        margin-right:  20px;
+                        background:white;
+                }
+          }
+    
+        </style>
+</head>`
+<body>
+        <div class="first">
+                <h1>Login</h1>
+        <form action="">
+        <label for="em">Email</label>
+        <input type="email" name="email" id="em">
+        <label for="ps">password</label> 
+        <input type="password" name="name" id="ps">
+        <input type="button" value="Submit">
+</div>
+</form>
+<p class="loginhere">Not have an account?<a href="index.html"><u>Sign up here</u></a></p>
+</body>
+</html>

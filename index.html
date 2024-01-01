@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+
+        <style>
+                *{
+                        margin: 0;
+                        padding: 0;
+                }
+                .sign{
+                        margin-top: 10px;
+                        text-align: center;
+                }
+                .second-heading{
+                        text-align: center;
+                       margin-top: 10px;
+                }
+               
+                .main{
+                    margin: auto;
+                    margin-top: 20px;
+                    border-radius: 5px;
+                        width: 360px;
+                        height: 550px;
+                        background:white;
+                }
+                form{
+                        width: 300px;
+                        margin-left: 20px;
+                }
+
+             form label{
+                        font-family: sans-serif;
+                        display: flex;
+                        font-weight: 500;
+                        font-size: 18px;
+                        margin-top: 15px;
+                       
+                }
+                input{
+                       width: 90%;
+                       padding: 4px;
+                       border-radius: 5px;
+                }
+                input[type="button"]{
+                        width: 94%;
+                        margin-top: 30px;
+                        background-color: orchid;
+                        font-family: sans-serif;
+                }
+                p{
+                        margin-top: 15px;
+                        margin-left: 15px;
+                        font-size:medium;
+                        font-weight: 500;
+                }
+                p a{
+                        margin-left: 20px;
+                }
+                .loginhere{
+                        text-align: center;
+                }
+@media (max-width:320px) {
+        
+       
+                .main{
+                    margin: auto;
+                    margin-top: 20px;
+                    border-radius: 5px;
+                        width: 360px;
+                        height: 550px;
+                    margin-left: 15px;
+                    margin-right: 20px;
+                        background:white;
+
+}
+}               
+        </style>
+</head>
+<body bgcolor="#ff7f50">
+        <div class="main">
+        <h1 class="sign">Sign Up</h1>
+        <h3 class="second-heading">It will hardly take a minute for sign up</h3>
+<form action="">
+       <label for="fname">First Name</label>
+       <input type="text" name="name" id="fname">
+       <label for="Lname">Last Name</label>
+       <input type="text" name="name" id="Lname">
+       <label for="em">Email</label>
+       <input type="email" name="email" id="em">
+       <label for="ps">password</label> 
+       <input type="password" name="name" id="ps">
+       <label for="cp">Confirm password</label>
+       <input type="password" name="name" id="cp">
+       <input type="button" value="Submit">
+</form>
+<p>By Clicking the Sign Up button, You agree to our <br><br>
+        <a href="">Terms and Conditions</a>&<a href=>privacy policy</a></p>
+</div>
+<p class="loginhere">You have already an account?<a href="indexx.html"><u>Login here</u></a></p>
+</body>
+</html>
